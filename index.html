@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -160,3 +161,167 @@
 </body>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Balee Cyberpunk 2027</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div class="bg-grid"></div>
+
+  <!-- Cyberpunk Rain -->
+<div class="rain-container" id="rain"></div>
+
+  <header class="navbar">
+    <div class="logo">BALEE 2027</div>
+
+    <nav id="navMenu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+      <i class="fas fa-bars"></i>
+    </button>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <p class="tag">PORTFOLIO • CYBERPUNK • 2027</p>
+      <h1>HI, I'M <span>BALEE</span></h1>
+      <p class="subtitle">
+        Front-End Developer • UI Designer • Gaming Ganteng Idaman
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary">View Projects</a>
+        <a href="#contact" class="btn secondary">Contact Me</a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <div class="avatar-glow">
+        <img src="assets/profile.png" alt="Balee" />
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h2 class="section-title">ABOUT_ME</h2>
+    <div class="card">
+      <p>
+        Saya adalah developer yang fokus pada pembuatan website modern,
+        cyberpunk UI, landing page interaktif, dan aplikasi web yang ringan
+        serta responsive untuk semua perangkat.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" id="skills">
+    <h2 class="section-title">SKILLS</h2>
+
+    <div class="skills-grid">
+      <div class="skill-card"><i class="fab fa-html5"></i><span>HTML5</span></div>
+      <div class="skill-card"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+      <div class="skill-card"><i class="fab fa-js"></i><span>JavaScript</span></div>
+      <div class="skill-card"><i class="fas fa-palette"></i><span>UI Design</span></div>
+      <div class="skill-card"><i class="fas fa-mobile-screen-button"></i><span>Responsive</span></div>
+      <div class="skill-card"><i class="fas fa-gamepad"></i><span>Game UI</span></div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <h2 class="section-title">PROJECTS</h2>
+
+    <div class="projects-grid">
+      <article class="project-card">
+        <h3>BaleeTopUp Game</h3>
+        <p>Website top up game modern dengan sistem checkout dan tema gaming cyberpunk.</p>
+      </article>
+
+      <article class="project-card">
+        <h3>Cyberpunk Linktree</h3>
+        <p>Landing page bio link dengan efek neon glow, cursor interaktif, dan desain futuristik.</p>
+      </article>
+
+      <article class="project-card">
+        <h3>Pixel Night Smoke</h3>
+        <p>Animasi pixel cyberpunk malam hari dengan hujan, asap rokok, dan suasana lo-fi aesthetic.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2 class="section-title">CONTACT</h2>
+
+    <div class="contact-card">
+      <p>Mari terhubung dan membuat project cyberpunk bersama 🚀</p>
+
+      <div class="socials">
+        <a href="https://instagram.com/hayuniqbal_" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://discord.gg/fwjvrkJy8K" target="_blank"><i class="fab fa-discord"></i></a>
+        <a href="https://github.com/Baleegimangbae" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2027 BALEE • CYBERPUNK PORTFOLIO</p>
+  </footer>
+
+<!-- CYBERPUNK AUTO MUSIC -->
+<!-- CYBERPUNK LOFI RADIO -->
+<audio id="bgMusic" autoplay loop playsinline>
+  <source src="https://stream.zeno.fm/f3wvbbqmdg8uv" type="audio/mpeg">
+</audio>
+
+  <script src="js/script.js"></script>
+
+<!-- AI Assistant Cyberpunk -->
+<div class="ai-widget" id="aiWidget">
+  <button class="ai-toggle" id="aiToggle">
+    <i class="fas fa-robot"></i>
+  </button>
+
+  <div class="ai-chat" id="aiChat">
+    <div class="ai-header">
+      <span>🤖 BALEE_AI 2027</span>
+      <button id="closeAi">&times;</button>
+    </div>
+
+    <div class="ai-messages" id="aiMessages">
+      <div class="ai-message bot">
+        Halo Bale 👋
+        Saya adalah <b>BALEE_AI 2027</b>.<br>
+        Tanya tentang <b>project, skill, kontak, atau website cyberpunk</b> 🚀
+      </div>
+    </div>
+
+    <div class="ai-input">
+      <input type="text" id="aiInput" placeholder="Tulis pertanyaan...">
+      <button id="sendAi">
+        <i class="fas fa-paper-plane"></i>
+      </button>
+    </div>
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</body>
+</html>
+>>>>>>> 3d524d2130c6e4b7ff97320cea2b2c070b7b3bf5
